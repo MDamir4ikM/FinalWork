@@ -3,16 +3,16 @@
 #include <math.h>
 
 int main() {
-	double x, s1, s2, s3, s4, y;
+	double x1, s11, s22, s33, s44, y1;
 	printf("vvedite X:");
-	scanf_s("%lf", &x); // Ввод Х
-	s1 = fabs(3 * x);
-	s2 = sin(s1);
-	s3 = 2 * x + s2;
-	s4 = s3 / 3.56;
-	y = sqrt(s4);
+	scanf_s("%lf", &x1); // Ввод Х
+	s11 = fabs(3 * x);
+	s22 = sin(s11);
+	s33 = 2 * x1 + s22;
+	s44 = s33 / 3.56;
+	y1 = sqrt(s44);
 
-	printf("iskomoe = %lf", y); // Вывод Х
+	printf("iskomoe = %lf", y1); // Вывод Х
 	
 	return 0;
 }
