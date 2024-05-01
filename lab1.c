@@ -12,7 +12,7 @@ int main() {
 	double s44;
 	double y1;
 	if (x1 < 0.0) {
-		printf("Error!!!!")
+		printf("Error!!!!") //Ошибка когда х1 отрицательное число
 	}
 	printf("vvedite X:");
 	scanf_s("%lf", &x1); // Ввод Х
