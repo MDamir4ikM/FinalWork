@@ -11,6 +11,9 @@ int main() {
 	double s33;
 	double s44;
 	double y1;
+	if (x1 < 0.0) {
+		printf("Error!!!!")
+	}
 	printf("vvedite X:");
 	scanf_s("%lf", &x1); // Ввод Х
 	s11 = fabs(3 * x);
