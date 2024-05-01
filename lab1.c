@@ -2,7 +2,7 @@
 #include <conio.h>
 #include <stdio.h>
 #include <math.h>
-//Лабораторная работа 3
+//Лабораторная работа 
 //Вариант 1
 int main() {
 	double x1;
